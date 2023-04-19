@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: box;
+}
+.add-bird-form-heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.add-bird-form-main {
+    margin: 100px;
+    padding: 50px 80px;
+    border: 0.5px solid grey;
+    border-radius: 20px; 
+}
+.add-bird-form-heading h1{
+    font-family: 'Baloo';
+    color: #A87B24
+}
+label{
+     font-size: 15px;
+     color: #A87B24
+}
+.form-control{
+    font-size: 20px;
+}
+.btn-add-bird{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-add-bird button{
+    font-size: 15px;
+    padding: 10px 30px;
+}

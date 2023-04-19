@@ -1,0 +1,143 @@
+/* account site */
+.both-site-account{
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px auto;
+}
+.left-site-account{
+    margin-left: 40px;
+    width: 30%;
+    position: relative;
+}
+.avatar1 {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.left-top-site-account{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.left-top-site-account p{
+    font-family: 'Baloo';
+    font-size: 40px;
+    color: #A87B24;
+}
+.left-top-site-account a{
+    bottom: 90px;
+    left: 240px;
+    position:absolute;
+    color: #A87B24;
+}
+.left-bottom-site-account{
+    padding-left: 40px;
+    display: flex;
+    padding-top: 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.left-bottom-site-account p{
+    margin-top: 3px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+.left-bottom-site-account p i{
+    color: #A87B24;
+}
+.both-site-account{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.right-site-account{
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-top: 30px;
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    border: 3px #f7f3f3 solid;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.private-inf-account{
+    background-color: #ebebeb;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-inf-account{
+    width: 100%;
+}
+.header-inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.header-inf p {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: #5f5104;
+}
+.icon-update{
+    right: 140px;
+    top: 160px;
+    position: absolute;
+}
+.icon-update  i{
+    color: #5f5104;
+}
+.icon-update i:hover{
+    color: #19a8cc;
+}
+.form-group label{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: lighter !important;
+}
+.form-group input{
+    padding: 15px;
+    font-size: large;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.btn-update-acc{
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.btn-update{
+    border-left: 30px;
+    margin-top: 10px;
+}
+.btn-close{
+    margin-right: 30px ;
+    border-left: 30px;
+    margin-top: 10px;
+}
+.btn-close p{
+    padding:0px 25px;
+    font-size: 15px;
+}
+.btn-update p{
+    padding:0px 25px;
+    font-size: 15px;
+}
+

@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tournament Detail */
+.tnmde-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+.tnm-basic-info{
+    width: 100%;
+    padding: 40px;
+    height: auto;
+    border-radius: 10px;
+}
+.tnm-basic-info{
+    width: 100%;
+}
+.tnm-picture{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tnm-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.tnm-heading h1{
+    text-transform: uppercase;
+    font-family: 'Baloo';
+    font-size: 45px;
+    color: #A87B24;
+}
+.tnm-heading p{
+    font-size: 20px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+/* line section */
+.line-section{
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-section p{
+    width: 60%;
+    border: 0.5px solid grey;
+    opacity: 0.2!important;
+}
+/* Section 3  */
+.basic-tnm-form{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.basic-tnm-form-categories{
+    height: inherit;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.basic-tnm-form-categories h1{
+    padding-bottom: 20px;
+    font-family: 'Baloo';
+    font-size: 22px;
+    color: #A87B24;
+}
+.basic-tnm-form-categories a{
+    padding-bottom: 20px;
+    font-family: 'Baloo';
+    font-size: 22px;
+    color: #A87B24;
+}
+.basic-tnm-form-categories a:hover{
+    padding-bottom: 20px;
+    font-family: 'Baloo';
+    font-size: 22px;
+    color: #A87B24;
+}
+.prize-site{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.prize-site h1,.player-site h1{
+    font-family: 'Baloo';
+    font-size: 30px;
+    color: #A87B24;
+    padding-bottom: 20px;
+}
+.prize-site p, .player-site p{
+    font-size: 20px;
+}
+.player-site{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.both-prize-player-site{
+    width: 100%;
+    display: flex;
+}
+/* Section 4 */
+.avatar-sponsor {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.sponsor-site{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.sponsor-site h1{
+    font-family: 'Baloo';
+    font-size: 30px;
+    color: #A87B24;
+    padding-bottom: 20px;
+}
+.sponsor-site-picture{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+/* Section 5 */
+.policy-site{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+.policy-site h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo';
+    font-size: 30px;
+    color: #A87B24;
+    padding-bottom: 40px;
+}
+.scroll-container{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.scroll-page p{
+    font-size: 40px;
+}
+/* Regis site */
+.regis-site{
+    width: 100%;
+    height: 300px;
+    background-color: #E9C277;
+}
+.regis-both-site{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.left-join-tnm{
+    border: none;
+    border-radius: 10px;
+    font-family: 'Baloo';
+    font-size: 30px;
+    color:#fff;
+    background: #A87B24;
+    padding: 20px 60px
+}
+.regis-left-site{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.regis-left-site h1{
+    font-family: 'Baloo';
+    font-size: 50px;
+    color: #fff;
+}
+.regis-left-site p{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #fff;
+}
+.regis-right-site{
+    padding: 0px 50px;
+    width: 50%;
+}
+.tnm-regis label{
+    font-family: 'Baloo';
+    font-size: 18px;
+    color: #A87B24;
+}
+.tnm-regis input{
+    padding: 10px;
+    font-size: 15px;
+}
+.btn-regis{
+    padding: 10px 15px;
+    border: none;
+    background-color: #A87B24;
+    color: #fff;
+}
+.btn-regis:hover{
+    opacity: 0.5;
+}
+.round-detail{
+    width: 100%;
+    display: flex;
+}
+.round-detail-site{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+.round-detail-site p{
+    font-family: 'Baloo';
+    font-size: 20px;
+    color: #A87B24;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.round-detail-site p input{
+    font-size: 20px;
+    padding-left: 10px;
+}
+table{
+    align-content: center;
+    text-align: center;
+}
+thead tr th{
+    font-size: 17.5px;
+    color: #A87B24 !important;
+    font-weight: bold;
+}
+tbody tr{
+    font-size: 15px;
+}
+tbody tr td input{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.candidate-heading{
+    font-family: 'Baloo';
+    font-size: 20px;
+    color: #A87B24;
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.custom-font-3{
+    font-family: 'Montserrat';
+    font-size: 20px !important;
+    color: black;
+    text-align: justify;
+}
+.highlight-row{
+    background: orange;
+}
+.custom-button_2{
+    font-family: 'Baloo';
+    font-size: 30px;
+    color: #A87B24;
+}
+.custom-button_2:hover{
+    font-family: 'Baloo';
+    font-size: 30px;
+    color: #A87B24;
+    text-decoration: none;
+    opacity: 0.75;
+}
+

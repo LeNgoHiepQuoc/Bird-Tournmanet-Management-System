@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.update-bird-form{
+    margin: 150px auto;
+}
+.update-bird-heading-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.update-bird-heading-form h1{
+    font-family: 'Baloo';
+    color: #A87B24;
+}
+.update-bird-form-main{
+    padding: 30px 30px; 
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+.form-group label{
+    color: #A87B24;
+}
+.btn-update-bird{
+    padding: 0px 40px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-update-bird button {
+    padding: 10px 20px;
+}

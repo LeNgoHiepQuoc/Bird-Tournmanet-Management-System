@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+body{
+    padding: 0;
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr ;
+    grid-template-rows:  0.5fr 4fr;
+    grid-template-areas: "sidebar header header header"
+        " sidebar main main main";
+    height: 100vh;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* ---------HEADER----------- */
+.header{
+    grid-area: header;
+    height: 120px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.main-header h1{
+    padding-left: 40px;
+    font-family: 'Baloo Bhaijaan';
+    color: #A87B24;
+    font-size: 42px;
+}
+/* ----------END HEADER------- */
+/* ----------SIDE BAR -------- */
+#sidebar{
+    grid-area: sidebar;
+    height: 100%;
+    background-color:#A87B24;
+}
+.side-menu ul li a {
+    color: #ffff;
+    font-family: 'Baloo';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:flex-start;
+}
+.side-menu ul li a  span{
+    margin-right: 20px;
+    font-size: 30px !important;
+}
+.side-menu ul li {
+    margin-bottom:20px ;
+    list-style: none !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+.side-menu ul{
+    padding-left: 20px !important;
+}
+.avatar-side{
+    margin: 30px 0px;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.side-avatar p{
+    margin-top: 10px !important;
+    font-size: 30px;
+    color: #dbd7d7;
+}
+.side-avatar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.side-menu ul li a h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* -----------END SIDEBAR------- */
+/* ----------MAIN BODY---------- */
+.main-body-total-categories{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.each-total-categories-site{
+    border-radius: 20px;
+    border: 2px solid #A87B24;
+    box-shadow: 1px solid #333232;
+    height: auto;
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #ffff;
+}
+.each-total-categories-site-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: 'Ubuntu', sans-serif;
+    color: #A87B24;
+}
+.each-total-categories-site-right {
+    border-radius: 15px;
+}
+.each-total-categories-site-right span{
+    padding: 20px;
+    font-size: 40px !important;
+}
+.each-total-categories-site-right i {
+    border-radius: 15px;
+    background-color: aqua;
+    color: white;
+    font-size: 60px;
+}
+.main-body-{
+    width: 100%;
+    height: inherit;
+}
+/* --Chart site--- */
+.chart-container-site{
+    margin: 20px 0px;
+}
+.pie-chart{
+    align-content: center;
+}
+/* List style */
+.list-tournament-bird-site{
+    margin-left:70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.list-tournment-site{
+    border-radius: 10px;
+    width:90%;
+    height: auto;
+    background-color: #fff;
+}
+.list-tournament-heading-site, .tournament-table {
+    padding: 30px 30px;
+}
+/* ------------ END MAIN BODY--------- */
+.main-body-total-categories{
+    margin-top: 40px;
+}

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+section{
+    margin-top: 50px;
+}
+.tnm-list-notification {
+    margin: 100px 0px;
+    width: 100%;
+    border: none;
+    height: auto;
+}
+.tnm-list-notification-heading{
+    padding: 0px 15px 0px 15px;;
+    text-align: center;
+}
+.tnm-list-notification-heading p{
+    font-family: 'Baloo';
+    font-size: 25px;
+    color: green;
+}
+.person-info-container{
+    padding: 15px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #A87B24;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.orther-info-container{
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 3px solid #A87B24;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.orther-info-container p{
+    font-family: 'Baloo';
+    font-size: 20px;
+    color: #A87B24;
+}
+.orther-info-container form textarea{
+    font-family: 'Baloo';
+    font-size: 15px;
+    border: 3px solid #A87B24;
+}
+.tnm-all-list-notification{
+    width: 100%;
+    height: auto;
+}
+.tnm-one-match-notification{
+    width: 100%;
+    border: 3px solid #A87B24;
+    height: auto;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+.tnm-left-match-notification{
+    padding: 0px 15px 15px 15px;
+    width: 50%;
+    height: auto;
+}
+/* image */
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+/* ohter info */
+.other-info-personal{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.other-info-personal li{
+    padding: 10px 0px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #fff;
+}
+.other-info-personal li i{
+    color: #fff;
+    padding-right: 10px;
+}
+.result-info{
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.result-info li{
+    padding: 5px 5px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+}
+/* right site */
+.tnm-right-match-notification{
+    width: 55%;
+}
+.tnm-right-match-top-small-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.top-right label{
+    font-family: 'Baloo';
+    font-size: 12px;
+    color: #A87B24;
+}
+.line-normal {
+    margin: 30px 0px;
+    padding: 0px 60px;
+}
+.line-normal p{
+    border: 2px solid #A87B24;
+}
+/* bird */
+.tnm-eight-bird-bottom-info-tnm{
+    width: 100%;
+    height: auto;
+}
+.bird-img img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-bird{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+    border: 3px solid #A87B24;;
+    border-radius: 5px;
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-bird-left-body li, .card-bird-right-body li{
+    list-style: none;
+}
+.card-bird-left-body li {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #A87B24;
+    padding: 5px;
+}
+.card-bird-right-body li {
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: black;
+}
+.avatar-logo-guide {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.guide-notification h1{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: bold;
+}
+.custom-button_3{
+    background: #A87B24!important;
+    border: none;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin: 15px 0px;
+    font-size: 17.5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.custom-button_3:hover{
+    background: #A87B24!important;
+    border: none;
+    font-weight: bold;
+    color: gainsboro;
+    float: right;
+    margin: 15px 0px;
+    font-size: 17.5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+table{
+    margin: 30px 0px !important;
+    padding: 0px 0px !important;
+    align-content: center;
+    text-align: center;
+}
+thead tr th{
+    font-size: 17.5px;
+    color: #A87B24 !important;
+    font-weight: bold;
+}
+tbody tr{
+    font-size: 15px;
+}
+.custom-button_2{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.custom-button_2:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    opacity: 0.75;
+}
+

@@ -1,0 +1,28 @@
+table{
+    margin: 30px 0px !important;
+    padding: 0px 0px !important;
+    align-content: center;
+    text-align: center;
+}
+thead tr th{
+    font-size: 17.5px;
+    color: #A87B24 !important;
+    font-weight: bold;
+}
+tbody tr{
+    font-size: 15px;
+}
+.custom-button_2{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.custom-button_2:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    opacity: 0.75;
+}
+section{
+    margin-top: 85px;
+}

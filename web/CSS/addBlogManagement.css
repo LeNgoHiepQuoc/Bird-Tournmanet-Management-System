@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #A87B24;
+}
+body{
+    height: 100vh;
+}
+.blog-heading-add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-blog-form{
+    padding: 40px;
+}
+.blog-heading-add h1{
+    font-family: 'Baloo';
+    font-size: 50px;
+    color: #A87B24;
+}
+.button-add-site{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+}
+.button-add-site button {
+    padding: 20px;
+    font-size: 18px;
+}

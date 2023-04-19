@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-top: 85px;
+}
+body{
+    height: 100vh;
+}
+.registration-img-form-tnm{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40rem;
+    height: 30rem;
+}
+.card-img-top{
+    width: 40rem;
+    height: 30rem;
+    object-fit:cover;
+}
+.registration-form{
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+.registration-main-form{
+    padding: 30px;
+    width: 100%;
+    height:auto;
+    background-color: #A87B24;
+    display: flex;
+}
+.registration-left-site{
+    display: flex;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.registration-inf-form-tnm{
+    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 0 50px;
+    align-content: center;
+}
+.form-control{
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+/* Small site */
+.other-inf-tnm-regis-form{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.small-categories{
+    margin-right: 10px;
+}
+.large-categories label, .small-categories label{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.img-sponsor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* RIGHT SITE */
+.registration-right-site{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+.registration-right-form{
+    padding-left: 35px ;
+    border-left: 3px solid grey ;
+}
+.registration-right-heading h1{
+    font-family: 'Baloo';
+    font-size: 75px;
+    color: #fff ;
+}
+.registration-right-heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.section-bird{
+    font-size: 15px;
+    border-radius:10px ;
+    border: none !important;
+    padding: 10px 80px;
+}
+/* image section */
+.preview {
+    padding: 0px 0px;
+    margin: 0 0px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.preview i {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.bird-identify-container{
+    margin-top: 10px;
+    padding: 0 40px;
+}
+.lable-right{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #ffff;
+    margin-bottom: 5px !important;
+}
+.form-name-categories{
+    margin-bottom: 5px !important;
+}
+.right-small-site{
+    margin-top: 30px;
+}
+.right-button{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+}
+.right-button button{
+    border-radius:10px ;
+    border: none !important;
+    background-color: #fff;
+    padding: 15px 50px;
+    color: #A87B24;
+    font-family: 'Baloo';
+    font-size: 22px;
+}
+.right-button button:hover{
+    opacity: 0.75;
+}
+.form-control-custom{
+    padding: 0.375rem 0.75rem;
+    font-size: 15px;
+    height: 34px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: right;
+}
+.custom-font-2{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: justify;
+}
+.custom-font-3{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+}
+.sponsor-img{
+    max-height: 40px;
+    max-width: 40px;
+}
+.tournament-img{
+    max-width: 300px;
+    max-height: auto;
+}
+.upload-label{
+    margin-right: 15px;
+}
+.btn-light{
+    color: #A87B24 !important;
+    font-family: 'Baloo';
+    font-size: 22px;
+}
+.custom-label{
+    margin: 0 0px !important;
+}
